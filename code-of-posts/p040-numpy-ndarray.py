@@ -77,3 +77,20 @@ print(f'm:\n{m}\n')
 n = k + m
 
 print(f'k + m:\n {n}\n')
+
+
+# narray attributes
+print(f'array n shape is: \n {n.shape} \n')
+print(f'array n dtype is: \n {n.dtype}\n')
+print(f'array n ndim is:\n {n.ndim}\n')
+
+# narray slicing
+arr = np.arange(10)
+print(f'arr: \n {arr} \n')
+
+arr_slice = arr[5:8]
+print(f'arr_slice: \n {arr_slice} \n')
+
+arr_slice[1] = 66
+print(f'arr_slice:\n {arr_slice} \n')
+print(f'arr: \n {arr} \n')
